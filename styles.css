@@ -1,0 +1,214 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fefbe9;
+}
+
+.Construct {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Header {
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flexbox;
+}
+
+/* .Wrapper {
+  width: 1500px;
+  margin: auto;
+  position: relative;
+} */
+
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: courier;
+  color: #183a1d;
+}
+
+.menu {
+  float: right;
+  font-size: 20px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid #364f6b;
+  background-color: #e1eedd;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #f0a04b;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#img-Profile {
+  width: 500px;
+  height: 500px;
+}
+
+.kolom {
+  margin-top: 59px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+.kolom .deskripsi {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #183a1d;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #183a1d;
+  width: 100%;
+}
+
+.button-linkedin {
+  background-color: #183a1d;
+  border-radius: 20px;
+  margin: 0px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+  color: black;
+}
+
+.table_skills {
+  font-size: 20px;
+  line-height: 35px;
+  width: 500px;
+}
+
+.button-linkedin:hover {
+  text-decoration: none;
+  background-color: #f0a04b;
+}
+
+.Skills {
+  width: 100%;
+}
+
+#Contact_Section {
+  background-color: #e1eedd;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact_socialmedia {
+  text-align: left;
+  margin: auto;
+  font-size: 20px;
+  width: max-content;
+}
+
+#contact_contact {
+  text-align: left;
+  margin: auto;
+  font-size: 20px;
+  width: max-content;
+}
+
+#contact_address {
+  text-align: left;
+  margin: auto;
+  font-size: 20px;
+}
+
+#contact_profile {
+  text-align: left;
+  margin: auto;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #183a1d;
+  width: 100%;
+  line-height: 50px;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-section p {
+  padding: 0px;
+  margin: 0px;
+}
