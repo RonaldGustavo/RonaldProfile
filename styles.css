@@ -12,11 +12,23 @@ body {
   background-color: #fefbe9;
 }
 
-.Wrapper {
-  width: 1700px;
+.Construct {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Header {
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flexbox;
+}
+
+/* .Wrapper {
+  width: 1500px;
   margin: auto;
   position: relative;
-}
+} */
 
 .logo a {
   font-size: 50px;
@@ -36,8 +48,6 @@ nav {
   margin: auto;
   display: flex;
   line-height: 80px;
-  position: sticky;
-  position: sticky;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -160,12 +170,14 @@ p {
   text-align: left;
   margin: auto;
   font-size: 20px;
+  width: max-content;
 }
 
 #contact_contact {
   text-align: left;
   margin: auto;
   font-size: 20px;
+  width: max-content;
 }
 
 #contact_address {
